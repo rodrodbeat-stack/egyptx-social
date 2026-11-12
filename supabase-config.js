@@ -1,2 +1,6 @@
-// Configuración pública del cliente Supabase. Nunca uses service_role aquí.
-window.EGYPTX_SUPABASE_CONFIG={url:"https://YOUR-PROJECT.supabase.co",anonKey:"YOUR_SUPABASE_ANON_PUBLIC_KEY"};
+// Configuración pública del cliente Supabase.
+// La clave sb_publishable es apta para frontend; nunca usar service_role aquí.
+window.EGYPTX_SUPABASE_CONFIG={
+  url:"https://knifwbtagioqywshagzx.supabase.co",
+  anonKey:"sb_publishable_zBe422nKAtrXmYF5usZfxw_RlRPJxor"
+};
